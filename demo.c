@@ -57,7 +57,7 @@ void parse(int option, node* p){
         printlist(p);
     }
 
-    char *discard = (char *)malloc(sizeof(char) * 1024), *discard2;
+    char *discard = (char *)malloc(sizeof(char) * 1024), *discard2 = (char *)malloc(sizeof(char));
     printf("press enter to continue");
     scanf("%[^\n]c", discard);
     scanf("%c", discard2);
